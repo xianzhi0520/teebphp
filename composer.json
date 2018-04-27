@@ -1,17 +1,17 @@
 {
-    "name": "betephp/framework",
-    "description": "The BetePHP Framework.",
-    "keywords": ["framework", "betephp"],
+    "name": "master_who/teebphp",
+    "description": "The master_who teebphp.",
+    "keywords": ["framework", "teebphp"],
     "license": "MIT",
-    "homepage": "https://betephp.com",
+    "homepage": "https://gitee.com/master_who/teebphp",
     "support": {
-        "issues": "https://github.com/betephp/framework/issues",
-        "source": "https://github.com/betephp/framework"
+        "issues": "https://gitee.com/master_who/teebphp/issues",
+        "source": "https://gitee.com/master_who/teebphp"
     },
     "authors": [
         {
-            "name": "Ecco Zhou",
-            "email": "eccozhou@gmail.com"
+            "name": "wzth",
+            "email": "394454244@qq.com"
         }
     ],
     "require": {
@@ -22,15 +22,15 @@
     },
     "autoload": {
         "files": [
-            "src/Bete/Support/helpers.php"
+            "src/Teeb/Support/helpers.php"
         ],
         "psr-4": {
-            "Bete\\": "src/Bete/"
+            "Teeb\\": "src/Teeb/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bete\\Tests\\": "tests/"
+            "Teeb\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev"
